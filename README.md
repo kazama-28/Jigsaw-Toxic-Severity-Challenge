@@ -19,5 +19,7 @@ I have utilized the training data from previous Jigsaw competitions, namely:
   Methodology:
   The validation data provided for this competition is augmented by creating additional "Less-Toxic" & "More-Toxic" pairs from datasets from previous competitions.
   The text is then cleaned for HTML TAGS, IP addresses, emojis, punctuations, special characters etc. 
+  
+  
   The ROBERTA model is then finetuned using the training data and MarginRankingLoss is used as loss function.
   
